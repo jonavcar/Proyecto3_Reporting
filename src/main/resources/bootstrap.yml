@@ -1,0 +1,10 @@
+server:
+  port: 8085
+
+spring:
+  application:
+    name: report-microservice
+  cloud:
+    config:
+      enabled: true
+      uri: http://config-server.southcentralus.azurecontainer.io:9998
